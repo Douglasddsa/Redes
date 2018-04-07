@@ -38,7 +38,7 @@ int main(int argc, char* const argv[])
         char buf[BUFLEN];
 
 	if (argc <3){
-		puts("   Este programa cria um cliente que se comunica");
+		puts("   Este programa cria um cliente que se comunica"); 
 		puts("   a um servidor através dos dados especificados");
 		puts("   pelo usuario. Para permitir que o cliente comunique-se");
 		puts("   com este servidor, o servidor deve ser");
