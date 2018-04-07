@@ -55,7 +55,7 @@ int main(void)
     		exit(1);
   	}
 
-	sprintf(buf,"Rrsv: 0   %s", inet_ntoa(*(struct in_addr *)h->h_addr_list[0]));
+	sprintf(buf,"Rrsv: 0   %s", inet_ntoa(*(struct in_addr *)h->h_addr_list[0])); 
 	if (sendto(s, buf, BUFLEN, 0, (struct sockaddr *) &si_other, slen)==-1)
             diep("sendto()");
 
